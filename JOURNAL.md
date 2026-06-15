@@ -33,5 +33,98 @@ However, when you can actually source proper components for it, it's pretty nice
 
 I made the X axis belt run over the side extrusion, and started designing the gantry to hold the motor and clamp onto the belt. Lowkey, I don't really anticipate this taking too much time—most of it was spent sourcing parts. Tomorrow I'll have a lot of time to cad out the rest of the project, and then refine the tiny details and total the parts. After that, I'll start making the PCB for it.
 
-Time today: 4.0 hours
-**Time total: 4.0 hours**
+Time today: 4.0 hours  
+**Time total: 4.0 hours**  
+
+## June 14th, 2026
+
+Locked in so hard today. I went to the library and spent around a half hour looking at components on aliexpress. I realized that I didn't need optical endstops because I already had leftovers. I then hopped into fusion and continued designing.
+
+![](./assets/image%20copy%205.png)
+
+I designed the actually chessboard, and then refined some of the parts.
+
+I added the pulleys:
+![](./assets/image%20copy%206.png)
+
+and the bolt counterbores:
+
+![](./assets/image%20copy%207.png)
+![](./assets/image%20copy%208.png)
+
+I also designed the pulley holder for the gantry.
+
+![](./assets/image%20copy%209.png)
+
+Funny story on this one, I actually originally designed it to bolt directly to the extrusion. So... it wouldn't be able to slide with the rest of the gantry. I had to redesign it to mount directly to the plate, and then redesign it AGAIN so that it wouldn't interfere with the carriage.
+
+I then fleshed out the belt clamp for the gantry:
+
+![](./assets/image%20copy%2010.png)
+
+and one for the carriage:
+
+![](./assets/image%20copy%2011.png)
+
+I then modelled the electromagnet and mounted it to the carriage:
+
+![](./assets/image%20copy%2012.png)
+
+I had a couple problems with the carriage. Namely, it interfered with the pulley holder (so I had to redesign it), and I had to shift the Nema motor back to allow for the carriage to get close to the edges.
+
+I then added the texture to the chessboard:
+![](./assets/image%20copy%205.png)
+
+I then joined it so that the electromagnet at it's bounds were under the center of each corner square, and created mounts to connect it to the extrusion
+
+![](./assets/image%20copy%2013.png)
+![](./assets/image%20copy%2014.png)
+
+I still have work to do in fusion, namely filleting and legs for the extrusion frame.
+
+I'm currently debating what to make the board out of. 1/4" MDF was my original plan, but acrylic would be pretty sick because you can look through it to see the electromagnet moving (also makes integration and debugging easier!).
+
+After I got home from the library, I sat down and worked on the kicad schematic.
+
+This is my first time putting actual chips on the pcb, instead of using sockets, so I had to do a lot of research on that.
+
+I picked up an esp32 wroom chip with flash (to run a shitty stockfish later), a usb-uart bridge, a usb c port, and a buck converter.
+
+![](./assets/image%20copy%2015.png)
+![](./assets/image%20copy%2017.png)
+![](./assets/image%20copy%2018.png)
+![](./assets/image%20copy%2019.png)
+
+I then started learning how to wire it up.
+
+First I did the usb c port with its 5.1kΩ resistors, and then hooked it up the CH340C usb-uart bridge.
+
+I then connected the bridge like it said to in the datasheet, and then set up the RTS and DTR pins to be able to reset the esp32 while programming.
+
+I had a hiccup here, the only datasheet I could find (the one on JLC) was in chinese, so I had to translate the entire document and use the scuffed misaligned translation to figure out pin purposes.
+
+![](./assets/image%20copy%2016.png)
+
+
+I then set up the electromagnet. It's not a super beefy one, 12V @ 0.13A, so I don't need to worry too much about heat dissipation. I set up the mosfet to be controlled by the esp32, and then added a flyback diode to protect from the electromagnet dumping voltage back into the circuit.
+
+![](./assets/image%20copy%2020.png)
+
+I hooked up the tmc2209s. Last time I used pure UART control, which was pretty neat, but kinda hard to find a library. It also doesn't allow for more complex motion profiles (which this project would benefit from). So I decided to use UART for configuration, and then the usual step/dir for motion control via bit banging.
+
+![](./assets/image%20copy%2021.png)
+
+
+I then set up the power supply and buck converter. This was honestly the hardest part because I've never done anything like this before (I usually just used a buck breakout board).
+
+I followed the datasheet and set correct values and routing. So, decoupling capacitors, the voltage divider (with their chosen resistors), the inductor (which I have never used before), and the switching pins. There's a lot of weird component values here like a 10pF capacitor on feedback and a 7nF capacitor on SS, but I matched the datasheet so I hope it works!
+
+![](./assets/image%20copy%2022.png)
+
+
+Here's the finished schematic! Honestly the most complex electrical thing I've ever done, and I'm proud of it. I still have to pick the components from JLC, but I think I have a good idea of what I want (0603 passives & x(5/7)r ceramic capacitors). After that's done, I can start the PCB layout and routing!
+
+![](./assets/schematic.png)
+
+Time today: 9.0 hours  
+**Time total: 13.0 hours**  
