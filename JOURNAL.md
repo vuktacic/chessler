@@ -128,3 +128,34 @@ Here's the finished schematic! Honestly the most complex electrical thing I've e
 
 Time today: 9.0 hours  
 **Time total: 13.0 hours**  
+
+## June 15th, 2026
+
+Today I wrapped up the schematic and part sourcing for the PCB.
+
+The first thing I did was add the endstops to the schematic.
+![](./assets/image%20copy%2023.png)
+
+I sourced all the parts for my inductor, resistors, capacitors, transistors, and my mosfet. I made sure to use basic or promotional extended for all of my parts, and then tried to use 0603 whereever I could.
+
+I then went through and swapped up the schematic symbols with JLC symbols from easyeda2kicad. This was pretty shitty because literally all of the symbols were rotated 90deg from the standard kicad symbols, AND were 1 unit longer.
+
+I then assigned all of my footprints and loaded everything into PCBNEW.
+
+![](./assets/image%20copy%2024.png)
+(it's looking to be a pretty complex board!)
+
+I exported my bom and loaded it into JLC.
+
+![](./assets/image%20copy%2025.png)
+
+It took a bit of finagling (I didn't check basic/extended status for some parts), but I got it down to $50usd for pcba and shipping!
+
+I have some passives left over from previous projects, so I can avoid extended parts and just hand solder them in.
+
+There were also a couple issues. I.e. the transistors, mosfet, and the usb-uart bridge were all rotated wrong in translation. I'll need to go through the kicad jlc plugin docs to figure out how to rectify that.
+
+Other than that, it's going pretty great!
+
+Time today: 3.5 hours  
+**Time total: 16.5 hours**  
