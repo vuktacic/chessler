@@ -7652,6 +7652,18 @@
 		)
 	)
 	(junction
+		(at 198.12 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d473f8-1e39-4aff-a16f-b813e21d1c30")
+	)
+	(junction
+		(at 260.35 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5581be-75e6-4f27-8161-ad9e0a615bd8")
+	)
+	(junction
 		(at 71.12 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7682,12 +7694,6 @@
 		(uuid "d3332609-5c61-4eb8-b029-d9e7ad6da218")
 	)
 	(junction
-		(at 194.31 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df1593a7-e5a9-4ea0-acd0-765572314e42")
-	)
-	(junction
 		(at 226.06 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7698,12 +7704,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca32afd-0ab3-4075-85f1-ae474c099399")
-	)
-	(junction
-		(at 256.54 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed541985-f281-47ae-81ad-641afd897fe9")
 	)
 	(junction
 		(at 50.8 78.74)
@@ -7736,6 +7736,10 @@
 		(uuid "2b302728-7d79-43c7-8413-ba339b5ff665")
 	)
 	(no_connect
+		(at 64.77 106.68)
+		(uuid "31020de0-5228-437c-a568-72d71f5862f6")
+	)
+	(no_connect
 		(at 215.9 71.12)
 		(uuid "366214cd-dc52-4c41-bbb4-c98a17a45969")
 	)
@@ -7750,10 +7754,6 @@
 	(no_connect
 		(at 95.25 111.76)
 		(uuid "5d4ee2b0-a98e-4816-b287-764bd35c614e")
-	)
-	(no_connect
-		(at 64.77 106.68)
-		(uuid "640f7abe-bdf6-4d36-85e0-3303a0e8ae72")
 	)
 	(no_connect
 		(at 121.92 165.1)
@@ -7802,6 +7802,10 @@
 	(no_connect
 		(at 251.46 53.34)
 		(uuid "917c42e7-1430-4149-bc2a-7ee2cf5eefeb")
+	)
+	(no_connect
+		(at 153.67 53.34)
+		(uuid "9e024682-6c7d-4ec0-85b7-700ddf3995de")
 	)
 	(no_connect
 		(at 121.92 149.86)
@@ -7855,6 +7859,10 @@
 		(at 189.23 53.34)
 		(uuid "e38c62bf-a254-47b5-95d2-b37f1e84cb81")
 	)
+	(no_connect
+		(at 215.9 53.34)
+		(uuid "e5d47831-338b-4645-8313-fea6a22d7259")
+	)
 	(wire
 		(pts
 			(xy 87.63 50.8) (xy 92.71 50.8)
@@ -7864,6 +7872,16 @@
 			(type default)
 		)
 		(uuid "05cbde2b-8bcf-4c0b-ad70-5bd2fb4fe69a")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09761f75-1476-4f9d-b3af-a01e3a6cc3f1")
 	)
 	(wire
 		(pts
@@ -7887,43 +7905,33 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 45.72) (xy 194.31 45.72)
+			(xy 113.03 27.94) (xy 114.3 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "164c446d-aba7-4760-b4f8-20d5c3abcf70")
+		(uuid "0f9b5cb8-c64d-4599-97ff-166b2abb9105")
 	)
 	(wire
 		(pts
-			(xy 194.31 35.56) (xy 194.31 45.72)
+			(xy 262.89 43.18) (xy 260.35 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27bd093d-aae3-487f-97af-19c6d1840510")
+		(uuid "2b19ad9b-070f-4ab0-9da8-f8b73ee824f8")
 	)
 	(wire
 		(pts
-			(xy 256.54 31.75) (xy 256.54 35.56)
+			(xy 200.66 43.18) (xy 198.12 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "306ca7a4-6107-4a6d-a255-40099d71b026")
-	)
-	(wire
-		(pts
-			(xy 194.31 31.75) (xy 194.31 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d5e757-c5f5-4f80-bd0f-c0943fc06467")
+		(uuid "2cc49cf8-69d1-435b-b26a-521ef73ed30f")
 	)
 	(wire
 		(pts
@@ -7937,6 +7945,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478b7807-a487-4d5f-a498-5647b6446115")
+	)
+	(wire
+		(pts
 			(xy 64.77 35.56) (xy 71.12 35.56)
 		)
 		(stroke
@@ -7944,6 +7962,16 @@
 			(type default)
 		)
 		(uuid "51c7dc63-11ba-4465-b129-a611745b3061")
+	)
+	(wire
+		(pts
+			(xy 198.12 35.56) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5382d836-38c2-4002-9e1e-c7d428647eb0")
 	)
 	(wire
 		(pts
@@ -7974,16 +8002,6 @@
 			(type default)
 		)
 		(uuid "7ec25972-888f-4028-9864-950669ce3ab8")
-	)
-	(wire
-		(pts
-			(xy 256.54 35.56) (xy 256.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f119a48-aa3c-4ebe-9113-74f2a6e23975")
 	)
 	(wire
 		(pts
@@ -8037,6 +8055,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 48.26) (xy 260.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cf9341-d9d8-447c-a342-a1b1df7aa526")
+	)
+	(wire
+		(pts
 			(xy 57.15 78.74) (xy 64.77 78.74)
 		)
 		(stroke
@@ -8044,6 +8072,16 @@
 			(type default)
 		)
 		(uuid "dc8c0c4a-6bfb-4487-ab4b-767973818eff")
+	)
+	(wire
+		(pts
+			(xy 260.35 45.72) (xy 260.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf1f1d9-ca98-4679-88dc-70cfec52bc37")
 	)
 	(wire
 		(pts
@@ -8057,16 +8095,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 45.72) (xy 256.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5ab05b-c031-4833-96a0-58ba92498fd6")
-	)
-	(wire
-		(pts
 			(xy 220.98 123.19) (xy 223.52 120.65)
 		)
 		(stroke
@@ -8074,6 +8102,16 @@
 			(type default)
 		)
 		(uuid "f370466b-b531-4f65-9c76-3b7dd4e8ddc1")
+	)
+	(wire
+		(pts
+			(xy 260.35 35.56) (xy 260.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff53b0d7-cd71-4042-b436-26c978858eff")
 	)
 	(global_label "RTS"
 		(shape input)
@@ -8168,6 +8206,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "1_1A"
+		(shape input)
+		(at 189.23 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c59af2e-cdba-4c39-9aa4-d20fa8029328")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 90.3296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8400,6 +8462,30 @@
 		(uuid "1f30d47b-17c3-4643-8fb1-74e090aefbd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.7672 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "1_1B"
+		(shape input)
+		(at 179.07 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2128ca02-8e1b-425f-955c-627034dfe01b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4282 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8699,30 +8785,6 @@
 			)
 		)
 	)
-	(global_label "1_2A"
-		(shape input)
-		(at 179.07 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3370f62d-ebc0-4c32-b7a4-d14a4633f6bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6096 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 107.95 121.92 180)
@@ -8771,30 +8833,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 186.69 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3645c1e5-7bfb-49e9-a7ed-a2a56c67294b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8343 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "1_DIR"
 		(shape input)
 		(at 64.77 101.6 180)
@@ -8808,30 +8846,6 @@
 		(uuid "367d897e-fcd2-4d7d-9087-16ec0c7b1575")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.4629 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 248.92 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c09d8a4-efa8-4e95-a36c-9e5cd4fb692a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.0643 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,9 +8929,9 @@
 			)
 		)
 	)
-	(global_label "2_1B"
+	(global_label "SW"
 		(shape input)
-		(at 236.22 97.79 90)
+		(at 124.46 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8925,9 +8939,9 @@
 			)
 			(justify left)
 		)
-		(uuid "447f7a55-3aa6-4054-82c4-d62fb830297f")
+		(uuid "4581deb8-c7e7-4624-a042-50874e4f13f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 90.1482 90)
+			(at 130.1061 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8976,54 +8990,6 @@
 		(uuid "467cec05-2ad3-4db4-aec0-55d45e4f1803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.8638 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "EN_TMC"
-		(shape input)
-		(at 215.9 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "484cbb19-859b-4f85-93ca-48684c7eb8be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.7787 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "2_1A"
-		(shape input)
-		(at 231.14 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a767e80-e35c-4211-ab35-74e8f0fd4b9a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 90.3296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9096,54 +9062,6 @@
 		(uuid "5177c035-0123-48f9-8024-405b607f66c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.2461 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1_1B"
-		(shape input)
-		(at 189.23 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5202a9ab-e265-4134-b260-9ea56e6d52e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 90.1482 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 256.54 31.75 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58f11585-37b2-403c-9d5c-09a93b5f42b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 25.2572 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9288,6 +9206,30 @@
 		(uuid "5edc38b7-03e0-4de3-80ff-34660ebe4afc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.2433 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "1_2A"
+		(shape input)
+		(at 184.15 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "609643ee-9891-4700-9c45-e41e48c61d36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 90.3296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9467,30 +9409,6 @@
 			)
 		)
 	)
-	(global_label "SW"
-		(shape input)
-		(at 123.19 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70bab0a1-6f32-4dce-8a3c-1ed71a4476f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.8361 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape input)
 		(at 36.83 86.36 0)
@@ -9512,30 +9430,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "2_2A"
-		(shape input)
-		(at 226.06 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73a92eed-5599-4043-968a-3f8101c32d10")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.5996 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9600,6 +9494,30 @@
 		(uuid "794a2e4a-aea8-4e15-a9f1-66b5c17933d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.9718 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 262.89 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79e1cb43-7511-4df6-835a-9d4ea0a27f65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 28.7043 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,6 +9758,30 @@
 		(uuid "8ce8dacd-2e07-424a-9b66-f58740e27300")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.8718 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 251.46 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e828c81-1016-497a-8190-70693ff9db48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.9528 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10093,6 +10035,30 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 200.66 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1044a15-e8c0-4c1d-b95f-8b6cd03d8609")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 28.7043 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 71.12 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10283,6 +10249,30 @@
 			)
 		)
 	)
+	(global_label "2_1B"
+		(shape input)
+		(at 226.06 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af1f0049-9628-47f8-befc-31200bc3bd95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.4182 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RTS"
 		(shape input)
 		(at 121.92 152.4 0)
@@ -10403,9 +10393,9 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "2_1A"
 		(shape input)
-		(at 194.31 31.75 90)
+		(at 236.22 97.79 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10413,9 +10403,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b9d69249-c642-4c46-a891-96f40415a08a")
+		(uuid "babb6b23-3516-4339-9333-d0fecdef4b1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 25.2572 90)
+			(at 236.22 90.3296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,6 +10585,30 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 189.23 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0b7f0a4-99c9-4cbe-b4f6-4e4fac971a67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7228 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 60.96 153.67 0)
@@ -10656,30 +10670,6 @@
 		(uuid "d8774391-d9cd-4bb6-89e1-e49966293696")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.7876 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "1_1A"
-		(shape input)
-		(at 184.15 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9382f11-883c-4fb6-a5b4-acc8a20ffbb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 90.3296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10835,30 +10825,6 @@
 			)
 		)
 	)
-	(global_label "EN_TMC"
-		(shape input)
-		(at 153.67 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5d7bc1f-e2dd-4b68-b685-a8d64ad26369")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5487 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ESP-USB"
 		(shape input)
 		(at 99.06 152.4 180)
@@ -10904,30 +10870,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 251.46 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ea476e26-b691-4e81-8541-7825f7c664a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.9528 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -10992,6 +10934,54 @@
 		(uuid "f59e8415-899a-458b-b8b2-20e2f8826be2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.26 126.4943 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 260.35 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f64436e1-6970-48ab-b39d-9a3493a0d072")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 29.0672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "2_2A"
+		(shape input)
+		(at 231.14 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8aeea71-94e7-4e19-8847-243c42914bd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 90.3296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11099,6 +11089,30 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 198.12 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc2d5156-1ffd-4524-b58f-337cee5fbef2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 29.0672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 64.77 25.4 90)
@@ -11144,30 +11158,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 189.23 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd499de9-088b-4905-ba1f-02b16026a914")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7228 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11328,6 +11318,119 @@
 			(project "chessbot"
 				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RVT1V471M1010")
+		(at 262.89 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06819f39-8c62-4b71-9ff2-740efc8602a3")
+		(property "Reference" "C7"
+			(at 269.24 39.975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 266.7 39.975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-FD"
+			(at 270.51 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_470uF-35V_C3350.html"
+			(at 273.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "470uF 35V"
+			(at 285.75 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RVT1V471M1010"
+			(at 278.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HONOR(荣誉)"
+			(at 275.59 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3350"
+			(at 280.67 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16a4d68c-af77-4d1c-b2da-ee18c732d8eb")
+		)
+		(pin "1"
+			(uuid "f6e5dfb7-3e44-4678-b80f-02434ce5f3ba")
+		)
+		(instances
+			(project "chessbot"
+				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11658,6 +11761,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 226.06 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdef8ee7-c95f-4031-b76f-c28f1453a784")
 		)
@@ -11904,7 +12018,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:0603WAF200JT5E")
-		(at 118.11 27.94 0)
+		(at 119.38 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11914,7 +12028,7 @@
 		(dnp no)
 		(uuid "1d44af3f-ba64-4be7-acb3-6ed71000c2d5")
 		(property "Reference" "R11"
-			(at 116.84 26.162 90)
+			(at 118.11 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11924,7 +12038,7 @@
 			)
 		)
 		(property "Value" "20Ω"
-			(at 119.38 26.162 90)
+			(at 120.65 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11934,7 +12048,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 118.11 35.56 0)
+			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11945,7 +12059,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_20R-20R0-1_C22950.html"
-			(at 118.11 38.1 0)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11956,7 +12070,7 @@
 			)
 		)
 		(property "Description" "20Ω (20R0) ±1%"
-			(at 118.11 50.8 0)
+			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11967,7 +12081,7 @@
 			)
 		)
 		(property "MPN" "0603WAF200JT5E"
-			(at 118.11 43.18 0)
+			(at 119.38 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11978,7 +12092,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 118.11 40.64 0)
+			(at 119.38 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11989,7 +12103,7 @@
 			)
 		)
 		(property "LCSC Part" "C22950"
-			(at 118.11 45.72 0)
+			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12129,7 +12243,8 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 86.36 160.02 270)
+		(at 143.51 168.91 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12139,7 +12254,7 @@
 		(dnp no)
 		(uuid "26e86b5f-bc6a-418e-a189-c5bba47fd02e")
 		(property "Reference" "C3"
-			(at 85.09 158.496 0)
+			(at 141.986 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12150,7 +12265,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 87.63 158.496 0)
+			(at 141.986 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12161,7 +12276,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 78.74 160.02 0)
+			(at 143.51 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12172,7 +12287,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 76.2 160.02 0)
+			(at 143.51 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,7 +12298,7 @@
 			)
 		)
 		(property "Description" "100nF (104) ±10% 50V"
-			(at 63.5 160.02 0)
+			(at 143.51 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12194,7 +12309,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 71.12 160.02 0)
+			(at 143.51 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12205,7 +12320,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 73.66 160.02 0)
+			(at 143.51 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12216,7 +12331,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 68.58 160.02 0)
+			(at 143.51 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,7 +12388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK_INTERNAL SILKSCREEN"
 			(at 171.45 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12629,120 +12744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 143.51 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46a10a66-c0fc-473d-a1a3-70a67ad8caa2")
-		(property "Reference" "C15"
-			(at 146.685 147.701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 149.225 147.701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 143.51 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 143.51 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF (104) ±10% 50V"
-			(at 143.51 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104"
-			(at 143.51 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 143.51 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 143.51 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ded65122-72ad-489c-8795-9b48cab0f653")
-		)
-		(pin "2"
-			(uuid "45acd5b7-e228-47b8-bcb2-9068c5df46ba")
-		)
-		(instances
-			(project "chessbot"
-				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:ESP32-WROOM-32D")
 		(at 80.01 97.79 0)
 		(unit 1)
@@ -12961,119 +12962,6 @@
 			(project "chessbot"
 				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:RVT1V471M1010")
-		(at 190.5 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bc2c67c-8ded-4714-a49a-31ae31e83639")
-		(property "Reference" "C6"
-			(at 191.105 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470uF"
-			(at 191.105 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-FD"
-			(at 190.5 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_470uF-35V_C3350.html"
-			(at 190.5 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "470uF 35V"
-			(at 190.5 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RVT1V471M1010"
-			(at 190.5 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HONOR(荣誉)"
-			(at 190.5 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C3350"
-			(at 190.5 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4f20948-e076-4caf-80e5-6da7083f3d01")
-		)
-		(pin "1"
-			(uuid "b9bfb439-7cb9-4eb7-9d9a-2bbcd0a9d03e")
-		)
-		(instances
-			(project "chessbot"
-				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13413,6 +13301,119 @@
 			(project "chessbot"
 				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RVT1V471M1010")
+		(at 200.66 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7715f206-cbef-4a2d-9b07-a810d984a52f")
+		(property "Reference" "C6"
+			(at 207.01 39.975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 204.47 39.975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-FD"
+			(at 208.28 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_470uF-35V_C3350.html"
+			(at 210.82 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "470uF 35V"
+			(at 223.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RVT1V471M1010"
+			(at 215.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HONOR(荣誉)"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3350"
+			(at 218.44 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "870b5492-68a7-414d-a52c-028927aa9b7b")
+		)
+		(pin "1"
+			(uuid "22c37aae-87eb-472c-8b74-953dfb012994")
+		)
+		(instances
+			(project "chessbot"
+				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13978,7 +13979,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:CL10A105KB8NNNC")
-		(at 107.95 27.94 180)
+		(at 107.95 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13988,7 +13989,7 @@
 		(dnp no)
 		(uuid "8bb9a74f-4c1f-4832-91e0-87fa01145887")
 		(property "Reference" "C12"
-			(at 106.68 25.146 90)
+			(at 109.22 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13998,7 +13999,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 109.22 25.146 90)
+			(at 106.68 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14008,7 +14009,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 107.95 20.32 0)
+			(at 107.95 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14019,7 +14020,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html"
-			(at 107.95 17.78 0)
+			(at 107.95 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14030,7 +14031,7 @@
 			)
 		)
 		(property "Description" "1uF (105) ±10% 50V"
-			(at 107.95 5.08 0)
+			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14041,7 +14042,7 @@
 			)
 		)
 		(property "MPN" "CL10A105KB8NNNC"
-			(at 107.95 12.7 0)
+			(at 107.95 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14052,7 +14053,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 107.95 15.24 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +14064,7 @@
 			)
 		)
 		(property "LCSC Part" "C15849"
-			(at 107.95 10.16 0)
+			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14428,7 +14429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK_INTERNAL SILKSCREEN"
 			(at 233.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14758,6 +14759,17 @@
 		)
 		(property "LCSC Part" "C7464026"
 			(at 110.49 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 110.49 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15708,119 +15720,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVT1V471M1010")
-		(at 252.73 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bea6ab6d-0050-4ea1-a29f-9985ce497175")
-		(property "Reference" "C7"
-			(at 253.335 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470uF"
-			(at 253.335 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-FD"
-			(at 252.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_470uF-35V_C3350.html"
-			(at 252.73 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "470uF 35V"
-			(at 252.73 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RVT1V471M1010"
-			(at 252.73 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HONOR(荣誉)"
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C3350"
-			(at 252.73 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fd534e1c-d015-4e10-906a-e6f04f7dfd07")
-		)
-		(pin "1"
-			(uuid "0f106b3e-2a96-4d6f-a7eb-c4152bf04935")
-		)
-		(instances
-			(project "chessbot"
-				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:0603WAF1302T5E")
 		(at 119.38 58.42 90)
 		(unit 1)
@@ -16035,6 +15934,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 161.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "820633ba-375a-4eec-8fcc-31bc9d1958dd")
 		)
@@ -16174,7 +16084,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16448,6 +16358,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 161.29 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30777425-1cfc-42bd-b5ec-f50c50908907")
 		)
@@ -16461,6 +16382,121 @@
 			(project "chessbot"
 				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
+		(at 143.51 144.78 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daee058b-5e85-47b0-b48b-6c4ee6ff1f8c")
+		(property "Reference" "C5"
+			(at 141.986 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 141.986 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 143.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 50V"
+			(at 143.51 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 143.51 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 143.51 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 143.51 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f95368c-8580-4ddc-9e70-c71ca15f7d22")
+		)
+		(pin "2"
+			(uuid "ae61350a-35d3-43eb-ade4-76aba5f2bbeb")
+		)
+		(instances
+			(project "chessbot"
+				(path "/ea410be7-93c0-4468-a68d-8ec8bf721260"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16580,7 +16616,8 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 143.51 168.91 180)
+		(at 86.36 160.02 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16590,7 +16627,7 @@
 		(dnp no)
 		(uuid "e0ba5bef-3cc8-4bf1-938e-b2de0c54eedd")
 		(property "Reference" "C14"
-			(at 146.685 171.831 90)
+			(at 89.281 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16601,7 +16638,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 149.225 171.831 90)
+			(at 89.281 165.735 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16612,7 +16649,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 143.51 161.29 0)
+			(at 78.74 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16623,7 +16660,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 143.51 158.75 0)
+			(at 76.2 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16634,7 +16671,7 @@
 			)
 		)
 		(property "Description" "100nF (104) ±10% 50V"
-			(at 143.51 146.05 0)
+			(at 63.5 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16645,7 +16682,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 143.51 153.67 0)
+			(at 71.12 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16656,7 +16693,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 143.51 156.21 0)
+			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16667,7 +16704,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 143.51 151.13 0)
+			(at 68.58 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16783,7 +16820,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

@@ -159,3 +159,39 @@ Other than that, it's going pretty great!
 
 Time today: 3.5 hours  
 **Time total: 16.5 hours**  
+
+## June 16th, 2026
+
+Today I routed the PCB!
+
+However before I could do that, there was an issue I needed to fix.
+
+I had to change this from GND to SW (don't know how I missed that one!)
+
+![](./assets/image%20copy%2027.png)
+
+THen I started placing all my components. I planned for a very compact board of 100mm x 40mm, so it was truly cramped.
+
+![](./assets/image%20copy%2028.png)
+
+I made sure to keep my usb C port away and separate from the noisy buck converter and tmc drivers. I placed the esp32 chip in the middle, and then the connectors and drivers at the end.
+
+I then got to work routing it.
+
+![](./assets/image%20copy%2029.png)
+
+This is the most complex board I've made so far, and it was a fun challenge to route it on only 2 layers. I was able to keep all of the usb logic on the top layer, and most of the buck converter as well. I had to run long bottom layer traces for the tmc2209 step, uart, and dir pins. I'm not happy about the 3V3 injection cuting off nearly the entire back 5mm of the board, but it is what it is.
+
+I made sure to use pours for the buck converter to ensure proper dissipation, and then filled the ground plane with stiching vias to ensure low resistance and connection.
+
+I still need to fix up the mess of a silkscreen it is right now, but other than that, it's pretty much done.
+
+Overall, I'm pretty happy with how it turned out! I need to plug it into JLC as a final check for manufacturability, but I don't anticipate any issues. I also want to get a review by someone (either on the slack or on reddit) just to be sure I didn't miss anything.
+
+![](./assets/image%20copy%2030.png)
+![](./assets/image%20copy%2031.png)
+![](./assets/image%20copy%2032.png)
+![](./assets/image%20copy%2033.png)
+
+Time today: 4.5 hours  
+**Time total: 21.0 hours**  
