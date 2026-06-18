@@ -195,3 +195,51 @@ Overall, I'm pretty happy with how it turned out! I need to plug it into JLC as 
 
 Time today: 4.5 hours  
 **Time total: 21.0 hours**  
+
+## June 17th, 2026
+
+So, a lot got done today. First of all, I got the chess board etched! I switched from wood to tinted acrylic. Acrylic because you can see through it and see the gantry moving, and tinted for hype moments and aura.
+
+![](./assets/image%20copy%2034.png)
+![](./assets/image%20copy%2035.png)
+
+So after I packed that in my backpack, I got to work on finishing the CAD.
+
+I created an enclosure + acrylic cover for the PCB.
+
+![](./assets/image%20copy%2036.png)
+
+I then created tabs for the corner Aruco markers.
+![](./assets/image%20copy%2037.png)
+![](./assets/image%20copy%2038.png)
+![](./assets/image%20copy%2039.png)
+![](./assets/image%20copy%2040.png)
+
+I then found the EXACT 3d model of the usb camera I'm using on grabcad, and created this goofy looking cone to determine the fov. I don't actually have the specs for that, but I assumed 120deg because people in the reviews said it had a wide fov.
+
+![](./assets/image%20copy%2041.png)
+
+
+I then spent way too long making this laser cut jig to determine the camera height. Yes it looks like shit. IT WILL BE REPLACED LATER. When I determine the correct height I'll 3d print a stand that goes to the correct location.
+![](./assets/image%20copy%2042.png)
+
+I then added counterbore spacings to everything:
+![](./assets/image%20copy%2043.png)
+
+And legs to allow space for the bottom gantry:
+![](./assets/image%20copy%2044.png)
+
+I did have to shift over the legs on the other side to allow clearance for the gantry motor that will be moving back and forth (the x-axis),
+
+
+Then came the "polishing" (read: mass filleting).
+![](./assets/image%20copy%2045.png)
+![](./assets/image%20copy%2046.png)
+![](./assets/image%20copy%2047.png)
+
+After that, I added fasteners to everything. Once again, I'm standardizing around M3 bolts. I will have to use an extra M4 to mount the electromagnet. There will actually be quite a lot of fasteners on the robot though. A good 40 or so M3x6's, and a good 50 M3-20 t-nuts.
+
+Either way, excited to be finished with the board cad. I still need to create the pieces. I'll probably rip a free to use model from grabcad, and modify it so that the pieces have spaces on the bottom for magnets and a "hat" on the top for an aruco marker. After that's done, I'll need to start working on the esp32 firmware (easy), and the aruco computer vision (very hard).
+
+Time today: 5.0 hours  
+**Time total: 26.0 hours**
