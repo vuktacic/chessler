@@ -243,3 +243,14 @@ Either way, excited to be finished with the board cad. I still need to create th
 
 Time today: 5.0 hours  
 **Time total: 26.0 hours**
+
+## June 23rd, 2026
+
+Came back from Nexus! Chill event and was happy to see SF once more. Either way, I'm super sleep deprived and trying to catchup from ym all-nighter on Sat-Sun. I found some nice chess pieces from grabcad with an open license, and then imported them into fusion. I then scaled them down to be 0.75" in diameter (19.05mm). I then created a 20mmx20mmx2mm platform for the Aruco tag exactly 2" above the board on each piece. (I used a post to standardize the diameters.)
+
+I then filleted everything to ensure printing with minimal supports!
+
+![](./assets/image%20copy%2048.png)
+
+Time today: 1.0 hours
+**Time total: 27.0 hours**
