@@ -264,6 +264,8 @@ I added magnet holes for all the pieces. I found some nice 6x2 neodymium magnets
 
 I created a 6.4mmx2.2mm hole in the bottom of each piece to fit said magnets. There are 32 pieces in total, so I'll need to get the 50 pack of magnets.
 
+![](./assets/image%20copy%2050.png)
+
 I have black filament at home, but I can contract a friend to print white version of all the pieces.
 
 It's going to take a lot of print time (currently 15 hours), but I think I can shave off a ton of time by removing unneeded supports (my printer can do 80deg overhangs, and many of the supports are supporting 50-60deg overhangs.)
