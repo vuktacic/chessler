@@ -272,5 +272,5 @@ It's going to take a lot of print time (currently 15 hours), but I think I can s
 
 With that, the CAD is done! Woohoo! Now I need to do the firmware. Yikes.
 
-Time today: 1.0 hours
-**Time total: 28.0 hours**
+Time today: 1.0 hours  
+**Time total: 28.0 hours**  
