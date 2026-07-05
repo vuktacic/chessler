@@ -44,10 +44,23 @@ def draw_grid(img):
         cv2.line(img, (0, p), (BOARD_SIZE, p), (255, 255, 255), 1)
 
 
+def replace_side(fen_string, side):
+    fields = fen_string.split(" ")
+    fields[1] = side
+    return " ".join(fields)
+
+
+def drain_serial(ser):
+    while ser.in_waiting:
+        line = ser.readline().decode(errors="ignore").strip()
+        if line:
+            print(line)
+
+
 # -------------------------
 # Main
 # -------------------------
-def run_camera():
+def run_camera(ser):
     detector = create_detector()
 
     cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
@@ -59,6 +72,11 @@ def run_camera():
     cv2.setMouseCallback("cam", mouse)
 
     last_time = time.time()
+
+    # last 5 board measurements & whether its changed
+    last_boards = []
+    last_board = None
+    next_side = "w"
 
     while True:
         ret, frame = cap.read()
@@ -141,8 +159,20 @@ def run_camera():
 
         board = fen.build_board(pieces)
         fen_string = fen.board_to_fen(board)
-        print(fen_string)
+        last_boards.append(fen_string)
+        last_boards = last_boards[-5:]
 
+        if len(last_boards) == 5 and all(b == last_boards[0] for b in last_boards):
+            stabilized_board = last_boards[0]
+
+            if last_board != stabilized_board:
+                fen_to_send = replace_side(stabilized_board, next_side)
+                ser.write(f"FEN {fen_to_send}\n".encode())
+                ser.flush()
+                drain_serial(ser)
+                print("Board changed:", fen_to_send)
+                last_board = stabilized_board
+                next_side = "b" if next_side == "w" else "w"
         # -------------------------
         # FPS
         # -------------------------
