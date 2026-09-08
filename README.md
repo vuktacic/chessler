@@ -8,6 +8,7 @@ A robot that plays chess. It uses a camera to detect Aruco tags on the board cor
 - [./pcb](./pcb): Kicad design files.
 - [./vision](./vision): Computer side vision code
 - [./bom.csv](./bom.csv): Bill of materials
+- [./po.csv](./po.csv): Purchase order
 - [./JOURNAL.md](./JOURNAL.md): Project journal
 
 
@@ -23,4 +24,10 @@ View the PCB on KiCanvas:
 
 ## Schematic
 
+![Schematic](./assets/schematic.png)
+
 ## PCB
+![PCB front](./assets/image%20copy%2030.png)
+![PCB back](./assets/image%20copy%2031.png)
+![PCB assembly](./assets/image%20copy%2032.png)
+![PCB detail](./assets/image%20copy%2033.png)

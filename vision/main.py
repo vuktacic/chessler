@@ -1,23 +1,12 @@
-import time
-
-from vision import run_camera
-import serial
-
-ser = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)
-
 def main():
-    time.sleep(2)
+    try:
+        from ui import run_ui
+    except ImportError as error:
+        raise SystemExit(
+            "The Tkinter UI runtime is unavailable. Install a Tcl/Tk runtime and retry."
+        ) from error
 
-    while True:
-        ser.write("pc_start\n".encode())
-
-        # if esp returns esp_ack break loop
-        if ser.readline().decode().strip() == "esp_ack":
-            break
-
-        time.sleep(0.1)
-
-    run_camera(ser)
+    run_ui()
 
 
 if __name__ == "__main__":
